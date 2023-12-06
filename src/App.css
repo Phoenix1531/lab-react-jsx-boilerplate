@@ -1,1 +1,18 @@
 /* add your styles here */
+body{
+    text-align: center;
+}
+.parent{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 70px;
+    /* padding: 5px; */
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.image{
+    width: 96%;
+}
